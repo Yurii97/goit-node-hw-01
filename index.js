@@ -35,11 +35,4 @@ const invoteAction = async ({ action, id, name, email, phone }) => {
     }
 }
 
-// invoteAction({ action: "listContacts" })
-// invoteAction({ action: "get", id: '3' })
-// invoteAction({ action: "removeContact", id: '71f0036a-b4a2-4ce2-8fdb-9d325d6aa1ba' })
-// invoteAction({ action: "addContact", name: 'Cyrus Jackson',
-//     email: 'nibh@semsempererat.com',
-//     phone: '(501) 472-5218' })
-
 invoteAction(argv);
